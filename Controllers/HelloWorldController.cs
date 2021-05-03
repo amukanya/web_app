@@ -21,9 +21,9 @@ namespace web_app.Controllers
 
         
 
-        public string Goodbye()
+        public IActionResult Goodbye()
         {
-            return "Goodbye!";
+            return Content("Goodbye!");
         }
     }
 }
